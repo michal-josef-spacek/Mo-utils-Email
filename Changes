@@ -1,0 +1,77 @@
+0.17
+
+0.16 2023-07-05T13:56:20+02:00
+ - Add check_string_begin() function.
+ - Add Mo::utils::Language to SEE ALSO section in doc.
+ - Add Wikibase::Datatype::Utils to SEE ALSO section in doc.
+ - Fix indent in doc.
+ - Fix SYNOPSIS section in doc.
+
+0.15 2023-06-10T18:35:55+02:00
+ - Add check_strings() subroutine.
+ - Fix dependencies in doc.
+ - Regen README file.
+ - Update copyright years.
+ - Update Module::Install to 1.21 version.
+
+0.14 2022-09-28T18:17:25+02:00
+ - Revert 0.13 version situation if key doesn't exist. It's not useful with
+   Mo.
+
+0.13 2022-09-27T19:36:15+02:00
+ - Add another error for situation if key doesn't exists.
+ - Add tests for undefined values.
+ - Sort modules usage in tests.
+
+0.12 2022-09-23T11:41:43+02:00
+ - Add check_code().
+
+0.11 2022-08-25T17:56:53+02:00
+ - Regen README file.
+ - Rename files in examples/ directory to better names.
+
+0.10 2022-07-28T12:15:19+02:00
+ - Add examples for check_bool() to doc.
+ - Fix doc in ERRORS section.
+
+0.09 2022-07-07T12:01:25+02:00
+ - Skip undefined value in check_number().
+
+0.08 2022-06-29T19:10:33+02:00
+ - Add support for test of errors structure.
+ - Fix error value in case of instance of object.
+ - Fix bless in mock objects in tests.
+ - Improve error in check_isa() like check blessed().
+ - Improve error in check_isa() to not present 'Reference' if ref $value eq
+   ''.
+
+0.07 2022-02-27T12:38:59+01:00
+ - Improve errors.
+ - Skip undefined value in check_isa().
+
+0.06 2022-01-15T15:58:52+01:00
+ - Add check_array().
+ - Add check_bool().
+ - Update copyright years.
+
+0.05 2021-10-19T13:07:37+02:00
+ - Fix existing of key in check_length().
+ - Fix undefined value in check_length().
+
+0.04 2021-10-19T12:59:57+02:00
+ - Add check_length().
+ - Add example for check_number_of_items().
+ - Add test for check_isa(). Testing of another object.
+ - Improve description for check_number_of_items().
+
+0.03 2020-12-11T14:10:51+01:00
+ - Add support for '+10' syntax of number to check_number().
+ - Add support for floating numbers to check_number().
+
+0.02 2020-12-11T12:32:57+01:00
+ - Fix SYNOPSIS section in doc.
+ - Fix usage of check_number() in case that not exist key.
+ - check_array_object() rewrite to readable version.
+
+0.01 2020-12-11T10:20:27+01:00
+ - First version.

@@ -20,5 +20,6 @@ META.yml
 README
 t/Mo-utils-Email/01-use.t
 t/Mo-utils-Email/02-version.t
+t/Mo-utils-Email/03-check_email.t
 xt/Mo-utils-Email/01-pod_coverage.t
 xt/Mo-utils-Email/02-pod.t

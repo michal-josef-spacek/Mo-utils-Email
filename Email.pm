@@ -110,7 +110,7 @@ Returns undef.
  print "ok\n";
 
  # Output like:
- # #Error [..utils.pm:?] Parameter 'key' must be a array.
+ # #Error [..utils.pm:?] Parameter 'key' doesn't contain valid email.
 
 =head1 DEPENDENCIES
 

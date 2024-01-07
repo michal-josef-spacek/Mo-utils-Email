@@ -114,8 +114,9 @@ Returns undef.
 
 =head1 DEPENDENCIES
 
-L<Exporter>,
+L<Email::Valid>,
 L<Error::Pure>,
+L<Exporter>,
 L<Readonly>.
 
 =head1 SEE ALSO

@@ -62,7 +62,7 @@ EXAMPLE2
      # #Error [..utils.pm:?] Parameter 'key' doesn't contain valid email.
 
 DEPENDENCIES
-    Exporter, Error::Pure, Readonly.
+    Email::Valid, Error::Pure, Exporter, Readonly.
 
 SEE ALSO
     Mo  Micro Objects. Mo is less.

@@ -1,4 +1,5 @@
 0.02
+ - Add tests for error parameters.
  - Rewrite the tests so that the functional tests are first and then the
    errors.
 

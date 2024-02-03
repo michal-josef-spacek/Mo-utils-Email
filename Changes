@@ -1,4 +1,6 @@
 0.02
+ - Rewrite the tests so that the functional tests are first and then the
+   errors.
 
 0.01 2024-01-08T00:50:40+01:00
  - First version.

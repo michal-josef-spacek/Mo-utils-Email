@@ -1,6 +1,8 @@
 TODO
 ====
-2.
+2. Handle another emails like user@localhost
+   Email::Valid could handle this.
+3.
 
 Applied
 =======
